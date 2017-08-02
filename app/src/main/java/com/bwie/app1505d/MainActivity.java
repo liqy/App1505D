@@ -18,8 +18,16 @@ public class MainActivity extends AppCompatActivity {
 
         feature1();
 
+        feature2();
 
 
+    }
+
+    /**
+     * 第二个功能开发完毕
+     */
+    private void feature2() {
+        hello.setText("这是第二个功能");
     }
 
     /**
